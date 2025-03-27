@@ -1,5 +1,4 @@
 .page {
-  /* Agrega las propiedades de la clase page aquí */
   min-width: 1100px;
   max-width: 1600px;
 
@@ -22,7 +21,6 @@
 }
 
 .nav {
-  /* Agrega las propiedades flex aquí */
   display: flex;
   justify-content: space-between;
 }
@@ -48,7 +46,6 @@
 }
 
 .header__content {
-  /* Agrega las propiedades flex aquí */
   display: flex;
   justify-content: space-between;
 }
@@ -237,7 +234,7 @@ Asegúrate de colocarlo antes de .card:, los padres deben preceder a sus hijos *
   text-decoration: none;
 }
 
-/* Etapa 2 */
+/******Etapa 2: Posicionamiento de elementos*******/
 .events__cover {
   flex-grow: 1;
   flex-shrink: 0;
