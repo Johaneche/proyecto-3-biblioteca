@@ -301,3 +301,109 @@ Asegúrate de colocarlo antes de .card:, los padres deben preceder a sus hijos *
   font-size: 14px;
   margin: 0;
 }
+
+/******Etapa 3: Etapa final*******/
+.membership {
+  padding: 100px 0 140px;
+  background-color: #057bf2;
+  color: #ffffff;
+}
+
+.membership__title {
+  max-width: 574px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52px;
+}
+
+.membership__steps {
+  list-style-type: none;
+  padding: 0;
+  margin: 100px 0 0;
+  /* Agrega estilos */
+  display: flex;
+  justify-content: space-around;
+  column-gap: 40px;
+}
+
+.step {
+  /* Agrega estilos */
+  flex-basis: 220px;
+}
+
+.step__title {
+  margin: 0;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.step__icon {
+  margin-left: 20px;
+}
+
+.step__description {
+  margin: 10px 0 0;
+}
+
+/* CSS para estilo del FOOTER */
+.footer {
+  box-sizing: border-box;
+  background-color: #1f1f1f;
+  color: #ffffff;
+}
+
+.footer__columns {
+  display: flex;
+  padding: 60px 80px;
+}
+
+.footer__column_content_hours {
+  margin-right: 80px;
+  margin-left: auto;
+}
+
+.footer__column_content_social {
+  justify-content: center;
+}
+
+.footer__logo {
+  width: 50px;
+  height: 80px;
+}
+
+.footer__column-heading {
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.footer__list {
+  /* El siguiente código elimina los estilos predeterminados del navegador para las listas */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__list-item {
+  padding-top: 16px;
+}
+
+.footer__column-link {
+  color: white;
+  text-decoration: none;
+}
+
+.footer__social-icon {
+  height: 16px;
+  width: 16px;
+  padding-right: 10px;
+}
+
+.footer__copyright {
+  padding: 0;
+  margin: 0;
+}
