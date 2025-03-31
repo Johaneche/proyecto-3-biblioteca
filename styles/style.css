@@ -324,8 +324,9 @@ Asegúrate de colocarlo antes de .card:, los padres deben preceder a sus hijos *
   margin: 100px 0 0;
   /* Agrega estilos */
   display: flex;
-  justify-content: space-around;
-  column-gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
 }
 
 .step {
@@ -355,30 +356,35 @@ Asegúrate de colocarlo antes de .card:, los padres deben preceder a sus hijos *
   box-sizing: border-box;
   background-color: #1f1f1f;
   color: #ffffff;
+  padding: 60px 80px;
+  display: flex;
 }
 
 .footer__columns {
   display: flex;
-  padding: 60px 80px;
+  justify-content: space-between;
 }
 
 .footer__column_content_hours {
   margin-right: 80px;
   margin-left: auto;
+  position: absolute;
+  right: 250px;
+  margin-left: auto;
 }
 
 .footer__column_content_social {
-  justify-content: center;
+  margin-left: 80px;
 }
 
 .footer__logo {
-  width: 50px;
+  width: 58px;
   height: 80px;
 }
 
 .footer__column-heading {
   margin: 0;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .footer__list {
@@ -395,6 +401,9 @@ Asegúrate de colocarlo antes de .card:, los padres deben preceder a sus hijos *
 .footer__column-link {
   color: white;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
 }
 
 .footer__social-icon {
@@ -404,6 +413,6 @@ Asegúrate de colocarlo antes de .card:, los padres deben preceder a sus hijos *
 }
 
 .footer__copyright {
-  padding: 0;
-  margin: 0;
+  margin-top: 100px;
+  margin-bottom: 0;
 }
