@@ -383,7 +383,7 @@ Asegúrate de colocarlo antes de .card:, los padres deben preceder a sus hijos *
 }
 
 .footer__column-heading {
-  margin: 0;
+  margin-top: 0;
   margin-bottom: 20px;
 }
 
