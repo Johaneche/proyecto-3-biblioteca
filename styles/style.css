@@ -358,6 +358,7 @@ Asegúrate de colocarlo antes de .card:, los padres deben preceder a sus hijos *
   color: #ffffff;
   padding: 60px 80px;
   display: flex;
+  flex-direction: column;
 }
 
 .footer__columns {
@@ -366,10 +367,6 @@ Asegúrate de colocarlo antes de .card:, los padres deben preceder a sus hijos *
 }
 
 .footer__column_content_hours {
-  margin-right: 80px;
-  margin-left: auto;
-  position: absolute;
-  right: 250px;
   margin-left: auto;
 }
 
@@ -395,7 +392,11 @@ Asegúrate de colocarlo antes de .card:, los padres deben preceder a sus hijos *
 }
 
 .footer__list-item {
-  padding-top: 16px;
+  /* padding-top: 16px; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0 16px 0 0;
 }
 
 .footer__column-link {
